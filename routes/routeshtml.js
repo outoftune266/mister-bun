@@ -3,7 +3,7 @@ var path = require("path");
 
 function initHtmlRoutes(app) {
     app.get("/", (req, res) => {
-        res.sendFile(path.join(__dirname, "home.html"));
+        res.sendFile(path.join(__dirname, "../home.html"));
     });
 
     app.get("/", (req, res) => {
