@@ -1,0 +1,24 @@
+{
+  "name": "mister-bun",
+  "version": "1.0.0",
+  "description": "hot restaurant",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/outoftune266/mister-bun.git"
+  },
+  "author": "todd, zak, kate, chad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/outoftune266/mister-bun/issues"
+  },
+  "homepage": "https://github.com/outoftune266/mister-bun#readme"
+}
