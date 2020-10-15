@@ -7,7 +7,7 @@ function initHtmlRoutes(app) {
     });
 
     app.get("/", (req, res) => {
-        res.sendFile(path.join(__dirname, "table.html"));
+        res.sendFile(path.join(__dirname, "../table.html"));
     });
 
     app.get("/", (req, res) => {
