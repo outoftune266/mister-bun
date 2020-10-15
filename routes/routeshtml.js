@@ -11,7 +11,7 @@ function initHtmlRoutes(app) {
     });
 
     app.get("/", (req, res) => {
-        res.sendFile(path.join(__dirname, "reservation.html"));
+        res.sendFile(path.join(__dirname, "../reservation.html"));
     });
 }
 
